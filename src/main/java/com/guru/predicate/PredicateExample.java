@@ -2,7 +2,9 @@ package com.guru.predicate;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.function.Predicate;
 
 public class PredicateExample {
@@ -32,8 +34,26 @@ public class PredicateExample {
 		      .stream()
 		      .filter(greaterThan2)
 		      .forEach(System.out::println);
-		      
+        	
+        
+        /**
+         * 
+		 * predcate using map
+		 * 
+         */
+        	Map<Integer,String> map = new HashMap<>();
+        	String[] arr = new String[] { "guru", "teja", "reddy", "sri" };
+       		for (String name : arr) {
+       			map.put( map.size() + 1, name);
+       		}      
+       		
+       		System.out.println("map value sorting");
+    		map.entrySet()
+    		   .stream()
+    		   .filter(x -> x.getValue().length() > 3)
+    		   .forEach(System.out::println);
 	}
 	
 	
 }
+ 

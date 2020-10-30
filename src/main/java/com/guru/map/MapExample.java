@@ -2,6 +2,8 @@ package com.guru.map;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
+import java.util.function.Predicate;
 
 public class MapExample {
 	public static int init = 1;
@@ -61,7 +63,7 @@ public class MapExample {
 		map
 		.entrySet()
 		.stream()
-		//.filter(x -> "something".equals(x.getValue()))
+		//.filter(x -> "something".equals(x.getValue())) // static map not applicable
 		.forEach(System.out::println);
 		
 		Map<Integer,String> newmap = map;
@@ -71,6 +73,15 @@ public class MapExample {
 		.filter(x ->x.getValue().length()>3)
 		.forEach(System.out::println);
 	
+	
+		System.out.println("::::::::::::: Sorting based on predicate ::::::::::::");
+		Predicate<? super Entry<Integer, String>> greterthan3 = i->i.getValue().length()>3;
+		Map<Integer,String> newmap1 = map;
+		System.out.println("new map1 ");
+		newmap1.entrySet()
+		.stream()
+		.filter(greterthan3)
+		.forEach(System.out::println);
 		
 	}
 

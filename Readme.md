@@ -21,8 +21,9 @@ F) All values in the stream must be traversed through the logic of the Function 
 G) This will be returning a value which is mandatory. If not returning will result in a compile-time error.</br>
 H) map() method will always transform the current value or object into another type or same type. If we do not want to pass the value to the next step then we need to return a null value from the map() method.</br>
 </br></br>
-input for map is -&gt  Function-&lt?, ?></br>
-first ? for resptype and second ? for input type
+input for map is -&gt  Function &lt?, ?></br> 
+first ? for resptype and second ? for input type </br>
+Function &ltRespType, ReqType></br> 
 
 <h3>FILTER</h3>
 

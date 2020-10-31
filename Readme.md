@@ -9,8 +9,8 @@ https://www.journaldev.com/2774/java-8-stream
 <h3> eclipse code review</h3>
 https://www.codota.com/code/java/methods/java.util.stream.Collectors/collectingAndThen
 
-<h1> Observed points </h1>
-<h2>Stream</h2>
+<h1 style="color:blue"> Observed points </h1>
+<h2 style="color:blue">Stream</h2>
 <h3>MAP</h3>
 A) map() operation is part of Stream API.</br>
 B) map() is an Intermediate Operation.</br>

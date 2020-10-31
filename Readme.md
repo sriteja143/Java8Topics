@@ -27,7 +27,7 @@ Function &ltRespType, ReqType></br>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h3>FILTER</h3>
-
+----------------------------------------------------------------------------------------------------
 A) filter() operation is part of Stream API.</br>
 B) filter() is an Intermediate Operation.</br>
 C) filter() method takes as an argument Predicate functional interface and Predicate tells true or false about the predicate condition.</br>

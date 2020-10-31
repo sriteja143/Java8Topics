@@ -27,7 +27,7 @@ Function &ltRespType, ReqType></br>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <h3>FILTER</h3>
-----------------------------------------------------------------------------------------------------
+
 A) filter() operation is part of Stream API.</br>
 B) filter() is an Intermediate Operation.</br>
 C) filter() method takes as an argument Predicate functional interface and Predicate tells true or false about the predicate condition.</br>
@@ -37,4 +37,7 @@ F) All values in the stream must be traversed through the logic of Predicate fun
 G) This will also be returning a value that is mandatory. If not returning will result in a compile-time error.</br>
 H) filter() method passes the values to the next step if the filter condition is true. Otherwise, the current object will be skipped from processing in the next step.</br>
 
-
+</br></br>
+input for filter is -&gt  Predicate &lt?></br> 
+predicate have only input type and gives boolean resp</br>
+Predicate &ltReqType></br> 

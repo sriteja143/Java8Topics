@@ -2,8 +2,11 @@ package com.guru.list;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class ListExample {
 
@@ -67,6 +70,30 @@ public class ListExample {
 	    names.stream().limit(2).filter(getAllMatchPredicatetrue).forEach(System.out::println);
 		//spliterator
 		//System.out.println("spliterator  -> " + names.stream().spliterator().DISTINCT);
+	    
+	    
+	    System.out.println("intput list -> "+names);
+		System.out.println("modifing the list 'doing append operation'  ");
+		
+		List<String> updatedlist = names.stream()
+		    .map(x->x+" updated")
+		    .collect(Collectors.toList());
+		System.out.println("updatedlist  -> "+ updatedlist);;
+		
+		
+		
+		// Create an Immutable List 
+        List<String> lt 
+            = Stream 
+                  .of("Honey", "For", "MONEY") 
+                  .collect(Collectors 
+                               .collectingAndThen( 
+                                   Collectors.toList(), 
+                                   Collections::<String> unmodifiableList)); 
+        System.out.println(lt);
+        lt.stream()
+          .map(x -> x + "  tryied to update")
+          .forEach(System.out::print);
 	}
 
 }

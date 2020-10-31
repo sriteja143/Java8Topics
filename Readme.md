@@ -40,4 +40,4 @@ H) filter() method passes the values to the next step if the filter condition is
 </br></br>
 input for filter is -&gt  Predicate &lt?></br> 
 predicate have only input type and gives boolean resp</br>
-Predicate &ltReqType></br> 
+Predicate <ReqType></br> 

@@ -38,6 +38,6 @@ G) This will also be returning a value that is mandatory. If not returning will 
 H) filter() method passes the values to the next step if the filter condition is true. Otherwise, the current object will be skipped from processing in the next step.</br>
 
 </br></br>
-input for filter is -&gt  Predicate &lt?></br> 
+input for filter is -&lt  Predicate &lt?></br> 
 predicate have only input type and gives boolean resp</br>
-Predicate <ReqType></br> 
+Predicate &ltReqType></br> 

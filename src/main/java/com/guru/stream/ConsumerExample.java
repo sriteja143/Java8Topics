@@ -1,4 +1,4 @@
-package com.guru.consumer;
+package com.guru.stream;
 // Java Program to demonstrate 
 // Consumer's accept() method 
 

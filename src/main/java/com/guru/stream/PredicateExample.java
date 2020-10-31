@@ -1,4 +1,4 @@
-package com.guru.predicate;
+package com.guru.stream;
 
 import java.util.ArrayList;
 import java.util.Collections;

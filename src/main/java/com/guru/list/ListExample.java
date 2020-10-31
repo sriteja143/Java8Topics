@@ -8,7 +8,12 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
+/**
+ * 
+ * @author Guru teja
+ *
+ * This class contains mainly Stream operations on list
+ */
 public class ListExample {
 
 	public static void main(String[] args) {

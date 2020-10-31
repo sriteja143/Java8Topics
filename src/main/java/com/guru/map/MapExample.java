@@ -4,7 +4,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.function.Predicate;
-
+/**
+ * 
+ * @author Guru teja
+ *
+ * This class contains mainly Stream operations on Map
+ */
 public class MapExample {
 	public static int init = 1;
 	public static Map map = new HashMap<>();

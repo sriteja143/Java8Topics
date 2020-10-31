@@ -24,7 +24,8 @@ H) map() method will always transform the current value or object into another t
 input for map is -&gt  Function &lt?, ?></br> 
 first ? for resptype and second ? for input type </br>
 Function &ltRespType, ReqType></br> 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <h3>FILTER</h3>
 
 A) filter() operation is part of Stream API.</br>

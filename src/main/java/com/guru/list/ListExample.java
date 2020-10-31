@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -91,7 +92,9 @@ public class ListExample {
                                    Collectors.toList(), 
                                    Collections::<String> unmodifiableList)); 
         System.out.println(lt);
-        lt.stream()
+        Function<String, String> mapper = x-> x+" hi  ->";
+		lt.stream()
+          .map(mapper)
           .map(x -> x + "  tryied to update")
           .forEach(System.out::print);
 	}

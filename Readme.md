@@ -5,6 +5,7 @@ https://www.geeksforgeeks.org/java-8-predicate-with-examples/
 
 https://www.journaldev.com/2774/java-8-stream
 
+https://www.javaprogramto.com/2019/12/java-8-difference-stream-map-filter.html
 
 <h3> eclipse code review</h3>
 https://www.codota.com/code/java/methods/java.util.stream.Collectors/collectingAndThen
